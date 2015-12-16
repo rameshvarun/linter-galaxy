@@ -1,0 +1,22 @@
+{
+  "name": "linter-galaxy",
+  "description": "Atom Linter for SC2's galaxy scripting language.",
+  "author": "Varun Ramesh <varunramesh@live.com>",
+  "license": "MIT",
+  "version": "0.0.0",
+  "main": "./lib/main",
+  "repository": "https://github.com/rameshvarun/linter-galaxy",
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "engines": {
+    "atom": "^1.0.9"
+  },
+  "dependencies": {
+    "galaxy-parser": "rameshvarun/galaxy-parser#8d8bafce2460cd79b33664456e5d06b7e3af74b4"
+  }
+}
